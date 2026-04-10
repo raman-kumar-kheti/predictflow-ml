@@ -1,0 +1,31 @@
+# Python / virtualenvs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & secrets
+.env
+
+# MLflow & generated runtime outputs
+mlruns/
+mlflow.db
+logs/
+artifacts/*.joblib
+artifacts/*.parquet
+artifacts/*.json
+reports/*.png
+reports/*.json
+reports/eda/
+
+*.pyc
+backend/.venv/
+backend/app/data/*.db
+backend/app/data/documents/
+backend/app/data/vector_store/
+memory/*.db
+outputs/

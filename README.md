@@ -1,4 +1,4 @@
-# PredictFlow ML (`production-ml-pipeline`)
+# PredictFlow ML (`predictflow-ml`)
 
 > **End-to-end machine learning and MLOps platform** for customer churn prediction, experiment tracking, model versioning, drift monitoring, and API serving.
 
@@ -50,7 +50,7 @@ This repository transforms the production engineering patterns from [GokuMohanda
 
 ## 6. Folder Structure
 ```text
-production-ml-pipeline/
+predictflow-ml/
 ├── .github/workflows/ci.yml
 ├── .env.example
 ├── .gitignore
@@ -174,8 +174,8 @@ Once running, interactive OpenAPI docs are available at `http://localhost:8000/d
 
 ## 13. Docker Instructions
 ```bash
-docker build -t production-ml-pipeline .
-docker run -p 8000:8000 production-ml-pipeline
+docker build -t predictflow-ml .
+docker run -p 8000:8000 predictflow-ml
 ```
 
 ## 14. Limitations & Future Improvements
